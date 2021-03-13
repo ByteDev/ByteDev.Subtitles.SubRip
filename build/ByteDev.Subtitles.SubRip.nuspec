@@ -6,7 +6,7 @@
     <version>0.0.1</version>
     <authors>Paul Stanley</authors>
     <owners>Paul Stanley</owners>
-    <copyright>Copyright 2020</copyright>
+    <copyright>Copyright 2021</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>.NET Standard library to help when using SubRip subtitles.</description>
     <tags>subrip subtitles captions srt text string time file</tags>
