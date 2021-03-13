@@ -36,8 +36,9 @@ SubRipFile
 SubRipFile file = SubRipFile.Load(@"C:\Videos\Carlito's Way [1993] (English Forced).srt");
 
 Console.WriteLine(file.FileName);
+Console.WriteLine();
 
-SubRipEntry entry1 in file.Entries[0];
+SubRipEntry entry1 = file.Entries[0];
 
 Console.WriteLine(entry1.OrderId);
 Console.WriteLine(entry1.Duration.ToString());
@@ -45,7 +46,7 @@ Console.WriteLine(entry1.Text);
 
 Console.WriteLine();
 
-SubRipEntry entry2 in file.Entries[1];
+SubRipEntry entry2 = file.Entries[1];
 
 Console.WriteLine(entry2.ToString());
 ```
@@ -54,6 +55,7 @@ Output:
 
 ```
 Carlito's Way [1993] (English Forced).srt
+
 1
 01:40:55,758 --> 01:40:58,426
 Listen to me carefully, Carlito.
