@@ -11,8 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ByteDev.Collections" Version="2.7.0" />
-    <PackageReference Include="ByteDev.Strings" Version="8.3.0" />
+    <PackageReference Include="ByteDev.Collections" Version="3.1.0" />
+    <PackageReference Include="ByteDev.Strings" Version="9.3.0" />
   </ItemGroup>
 
 </Project>

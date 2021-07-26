@@ -15,8 +15,8 @@
     <license type="file">LICENSE</license>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="ByteDev.Strings" version="8.3.0" />
-        <dependency id="ByteDev.Collections" version="2.7.0" />
+        <dependency id="ByteDev.Strings" version="9.3.0" />
+        <dependency id="ByteDev.Collections" version="3.1.0" />
       </group>
     </dependencies>
   </metadata>
